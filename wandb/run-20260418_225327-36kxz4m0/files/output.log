@@ -1,7 +1,0 @@
-Using mps device
-NeuralNetwork(
-  (linear1): Linear(in_features=30, out_features=15, bias=True)
-  (relu1): ReLU()
-  (lienar2): Linear(in_features=15, out_features=1, bias=True)
-  (sigmoid): Sigmoid()
-)

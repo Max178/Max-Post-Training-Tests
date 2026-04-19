@@ -1,0 +1,37 @@
+{
+  "os": "macOS-13.5-arm64-arm-64bit",
+  "python": "CPython 3.12.1",
+  "startedAt": "2026-04-19T06:31:05.518098Z",
+  "program": "/Users/maxpendse/Desktop/Coding Projects/Max-Post-Training-Tests/wandb_test/first_wandb_run.py",
+  "codePath": "wandb_test/first_wandb_run.py",
+  "codePathLocal": "wandb_test/first_wandb_run.py",
+  "git": {
+    "remote": "https://github.com/Max178/Max-Post-Training-Tests.git",
+    "commit": "8c6db5459c6e13fc63af1eb226e9e1b4bc1e8f7e"
+  },
+  "email": "maxpendse@gmail.com",
+  "root": "/Users/maxpendse/Desktop/Coding Projects/Max-Post-Training-Tests",
+  "host": "Maxs-MacBook-Air-3.local",
+  "executable": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "240234328064"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "apple": {
+    "name": "Apple M2",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 10,
+    "memoryGb": 8,
+    "swapTotalBytes": "4294967296",
+    "ramTotalBytes": "8589934592"
+  },
+  "writerId": "ig0vnoxmrbuwlu5tbtrrjsbj2vhkpvfa"
+}

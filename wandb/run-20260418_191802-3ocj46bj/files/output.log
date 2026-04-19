@@ -1,0 +1,6 @@
+Using mps device
+Traceback (most recent call last):
+  File "/Users/maxpendse/Desktop/Coding Projects/Max-Post-Training-Tests/wandb_test/first_wandb_run.py", line 49, in <module>
+    run.log({"loss": loss, "r2": r2, "w": w, "b": b})
+                     ^^^^
+NameError: name 'loss' is not defined

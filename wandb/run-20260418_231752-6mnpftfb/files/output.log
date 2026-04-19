@@ -1,0 +1,16 @@
+Using mps device
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/torch/_tensor_str.py:145: UserWarning: MPS: nonzero op is supported natively starting from macOS 14.0. Falling back on CPU. This may have performance implications. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/mps/operations/Indexing.mm:401.)
+  nonzero_finite_vals = torch.masked_select(
+tensor([[1.2460e+01, 2.4040e+01, 8.3970e+01,  ..., 2.2100e-01, 4.3660e-01,
+         2.0750e-01],
+        [1.7600e+01, 2.3330e+01, 1.1900e+02,  ..., 1.9960e-01, 2.3010e-01,
+         1.2240e-01],
+        [1.2050e+01, 2.2720e+01, 7.8750e+01,  ..., 1.0920e-01, 2.1910e-01,
+         9.3490e-02],
+        ...,
+        [1.4290e+01, 1.6820e+01, 9.0300e+01,  ..., 3.3330e-02, 2.4580e-01,
+         6.1200e-02],
+        [1.3980e+01, 1.9620e+01, 9.1120e+01,  ..., 1.8270e-01, 3.1790e-01,
+         1.0550e-01],
+        [1.2180e+01, 2.0520e+01, 7.7220e+01,  ..., 7.4310e-02, 2.6940e-01,
+         6.8780e-02]], device='mps:0')

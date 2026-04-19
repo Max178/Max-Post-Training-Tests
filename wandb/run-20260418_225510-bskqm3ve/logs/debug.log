@@ -1,0 +1,24 @@
+2026-04-18 22:55:10,751 INFO    MainThread:38495 [wandb_setup.py:_flush():81] Current SDK version is 0.25.1
+2026-04-18 22:55:10,751 INFO    MainThread:38495 [wandb_setup.py:_flush():81] Configure stats pid to 38495
+2026-04-18 22:55:10,752 INFO    MainThread:38495 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-04-18 22:55:10,752 INFO    MainThread:38495 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /Users/maxpendse/Desktop/Coding Projects/Max-Post-Training-Tests/wandb/run-20260418_225510-bskqm3ve/logs/debug.log
+2026-04-18 22:55:10,752 INFO    MainThread:38495 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /Users/maxpendse/Desktop/Coding Projects/Max-Post-Training-Tests/wandb/run-20260418_225510-bskqm3ve/logs/debug-internal.log
+2026-04-18 22:55:10,752 INFO    MainThread:38495 [wandb_init.py:init():844] calling init triggers
+2026-04-18 22:55:10,752 INFO    MainThread:38495 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'epochs': 10, 'dataset': 'Breast Cancer SKLearn', '_wandb': {}}
+2026-04-18 22:55:10,752 INFO    MainThread:38495 [wandb_init.py:init():892] starting backend
+2026-04-18 22:55:11,046 INFO    MainThread:38495 [wandb_init.py:init():895] sending inform_init request
+2026-04-18 22:55:11,066 INFO    MainThread:38495 [wandb_init.py:init():903] backend started and connected
+2026-04-18 22:55:11,079 INFO    MainThread:38495 [wandb_init.py:init():973] updated telemetry
+2026-04-18 22:55:11,091 INFO    MainThread:38495 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-04-18 22:55:11,787 INFO    MainThread:38495 [wandb_init.py:init():1042] starting run threads in backend
+2026-04-18 22:55:11,905 INFO    MainThread:38495 [wandb_run.py:_console_start():2524] atexit reg
+2026-04-18 22:55:11,905 INFO    MainThread:38495 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-04-18 22:55:11,905 INFO    MainThread:38495 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-04-18 22:55:11,905 INFO    MainThread:38495 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-04-18 22:55:11,907 INFO    MainThread:38495 [wandb_init.py:init():1082] run started, returning control to user process
+2026-04-18 22:55:12,670 INFO    MainThread:38495 [wandb_run.py:_finish():2291] finishing run maxpendse-projects/first-nn-breast-cancer/bskqm3ve
+2026-04-18 22:55:12,670 INFO    MainThread:38495 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-04-18 22:55:12,671 INFO    MainThread:38495 [wandb_run.py:_restore():2472] restore
+2026-04-18 22:55:12,671 INFO    MainThread:38495 [wandb_run.py:_restore():2478] restore done
+2026-04-18 22:55:13,369 INFO    MainThread:38495 [wandb_run.py:_footer_sync_info():3868] logging synced files

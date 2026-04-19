@@ -1,0 +1,11 @@
+Using mps device
+NeuralNetwork(
+  (linear1): Linear(in_features=30, out_features=15, bias=True)
+  (relu1): ReLU()
+  (lienar2): Linear(in_features=15, out_features=1, bias=True)
+  (tanh): Tanh()
+)
+Traceback (most recent call last):
+  File "/Users/maxpendse/Desktop/Coding Projects/Max-Post-Training-Tests/wandb_test/first_wandb_run.py", line 62, in <module>
+    model.train(X_train, Y_train)
+TypeError: Module.train() takes from 1 to 2 positional arguments but 3 were given

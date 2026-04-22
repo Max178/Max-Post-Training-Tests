@@ -1,0 +1,7 @@
+[34m[1mwandb[0m: Detected [huggingface_hub.inference] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai/
+Using mps device
+model_outputs shape is: torch.Size([50, 1050, 99])
+batch_y shape is: torch.Size([50, 1050, 99])
+The loss for batch: 0 is 7.121170997619629

@@ -1,0 +1,15 @@
+{"time":"2026-04-21T23:32:02.142889-07:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-04-21T23:32:02.145578-07:00","level":"INFO","msg":"stream: starting","core version":"0.25.1"}
+{"time":"2026-04-21T23:32:02.342188-07:00","level":"INFO","msg":"stream: created new stream","id":"ywmdlyho"}
+{"time":"2026-04-21T23:32:02.342222-07:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-04-21T23:32:02.342372-07:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-04-21T23:32:02.342381-07:00","level":"INFO","msg":"writer: started","stream_id":"ywmdlyho"}
+{"time":"2026-04-21T23:32:02.342383-07:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-04-21T23:32:32.345865-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-04-21T23:32:36.049511-07:00","level":"INFO","msg":"filestream: sending request","total_files":1,"console_offset":0,"console_lines":1}
+{"time":"2026-04-21T23:32:44.957747-07:00","level":"INFO","msg":"stream: closing"}
+{"time":"2026-04-21T23:33:06.181861-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-04-21T23:33:13.853832-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:33:13.85527-07:00","level":"INFO","msg":"filestream: sending request","total_files":0}
+{"time":"2026-04-21T23:34:08.903701-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/maxpendse-projects/Max-LLM-Project/ywmdlyho/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-04-21T23:35:06.231958-07:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/maxpendse-projects/Max-LLM-Project/ywmdlyho/file_stream","body":"{\"error\":\"rate limit exceeded: per_run limit on filestream requests\"}"}

@@ -1,0 +1,30 @@
+{"time":"2026-04-21T23:47:57.050277-07:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-04-21T23:47:57.051931-07:00","level":"INFO","msg":"stream: starting","core version":"0.25.1"}
+{"time":"2026-04-21T23:47:57.235488-07:00","level":"INFO","msg":"stream: created new stream","id":"6tf5r57l"}
+{"time":"2026-04-21T23:47:57.235533-07:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-04-21T23:47:57.23566-07:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-04-21T23:47:57.235661-07:00","level":"INFO","msg":"writer: started","stream_id":"6tf5r57l"}
+{"time":"2026-04-21T23:47:57.235668-07:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-04-21T23:48:00.107145-07:00","level":"INFO","msg":"filestream: sending request","total_files":1,"console_offset":0,"console_lines":1}
+{"time":"2026-04-21T23:48:55.26852-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/maxpendse-projects/Max-LLM-Project/6tf5r57l/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-04-21T23:49:00.277284-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:49:00.279156-07:00","level":"INFO","msg":"filestream: sending request","total_files":0}
+{"time":"2026-04-21T23:49:55.326955-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/maxpendse-projects/Max-LLM-Project/6tf5r57l/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-04-21T23:49:58.542023-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:49:58.544463-07:00","level":"INFO","msg":"filestream: sending request","total_files":2,"events_offset":0,"events_lines":8,"console_offset":1,"console_lines":74,"uploaded_len":2}
+{"time":"2026-04-21T23:49:59.053163-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:49:59.054271-07:00","level":"INFO","msg":"filestream: sending request","total_files":2,"events_offset":8,"events_lines":6,"console_offset":75,"console_lines":8}
+{"time":"2026-04-21T23:49:59.56581-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:49:59.989654-07:00","level":"INFO","msg":"filestream: sending request","total_files":1,"events_offset":14,"events_lines":1}
+{"time":"2026-04-21T23:50:45.107929-07:00","level":"INFO","msg":"stream: closing"}
+{"time":"2026-04-21T23:50:45.55968-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-04-21T23:50:58.138409-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/maxpendse-projects/Max-LLM-Project/6tf5r57l/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-04-21T23:51:55.490203-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/maxpendse-projects/Max-LLM-Project/6tf5r57l/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-04-21T23:52:01.579482-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:52:01.581712-07:00","level":"INFO","msg":"filestream: sending request","total_files":0}
+{"time":"2026-04-21T23:52:02.187893-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:52:02.190628-07:00","level":"INFO","msg":"filestream: sending request","total_files":2,"events_offset":15,"events_lines":7,"uploaded_len":3,"complete":true,"exit_code":0}
+{"time":"2026-04-21T23:52:29.184222-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:52:29.187752-07:00","level":"INFO","msg":"handler: closed"}
+{"time":"2026-04-21T23:52:29.189185-07:00","level":"INFO","msg":"sender: closed"}
+{"time":"2026-04-21T23:52:29.189211-07:00","level":"INFO","msg":"stream: closed"}

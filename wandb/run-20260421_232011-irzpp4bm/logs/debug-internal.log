@@ -1,0 +1,18 @@
+{"time":"2026-04-21T23:20:12.225899-07:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-04-21T23:20:12.228056-07:00","level":"INFO","msg":"stream: starting","core version":"0.25.1"}
+{"time":"2026-04-21T23:20:12.425907-07:00","level":"INFO","msg":"stream: created new stream","id":"irzpp4bm"}
+{"time":"2026-04-21T23:20:12.425978-07:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-04-21T23:20:12.426187-07:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-04-21T23:20:12.426209-07:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-04-21T23:20:12.426203-07:00","level":"INFO","msg":"writer: started","stream_id":"irzpp4bm"}
+{"time":"2026-04-21T23:20:13.743165-07:00","level":"INFO","msg":"filestream: sending request","total_files":1,"console_offset":0,"console_lines":1}
+{"time":"2026-04-21T23:20:15.772085-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:20:28.74349-07:00","level":"INFO","msg":"filestream: sending request","total_files":2,"events_offset":0,"events_lines":2,"console_offset":1,"console_lines":16,"uploaded_len":2}
+{"time":"2026-04-21T23:20:31.105525-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:20:43.744439-07:00","level":"INFO","msg":"filestream: sending request","total_files":2,"events_offset":2,"events_lines":2,"console_offset":17,"console_lines":16}
+{"time":"2026-04-21T23:20:46.055939-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:20:58.745912-07:00","level":"INFO","msg":"filestream: sending request","total_files":2,"events_offset":4,"events_lines":2,"console_offset":33,"console_lines":13}
+{"time":"2026-04-21T23:21:53.807123-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/maxpendse-projects/Max-LLM-Project/irzpp4bm/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-04-21T23:22:03.988609-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:22:03.99114-07:00","level":"INFO","msg":"filestream: sending request","total_files":0}
+{"time":"2026-04-21T23:22:54.891141-07:00","level":"INFO","msg":"stream: closing"}

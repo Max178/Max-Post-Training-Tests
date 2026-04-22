@@ -1,0 +1,34 @@
+[34m[1mwandb[0m: Detected [huggingface_hub.inference] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai/
+Using mps device
+The running loss for batch: 0 is 22.13531494140625
+The running loss for batch: 50 is 43.59663391113281
+The running loss for batch: 100 is 74.22855377197266
+The running loss for batch: 150 is 106.67166137695312
+The running loss for batch: 200 is 132.04037475585938
+The running loss for batch: 250 is 154.3533935546875
+The running loss for batch: 300 is 176.06338500976562
+The running loss for batch: 350 is 197.75497436523438
+The running loss for batch: 400 is 219.44952392578125
+The running loss for batch: 450 is 241.23406982421875
+The running loss for batch: 500 is 262.9289855957031
+The running loss for batch: 550 is 284.6116943359375
+The running loss for batch: 600 is 306.2900695800781
+The running loss for batch: 650 is 327.993408203125
+The running loss for batch: 700 is 349.65570068359375
+The running loss for batch: 750 is 371.3741149902344
+The running loss for batch: 800 is 393.0604248046875
+The running loss for batch: 850 is 414.72662353515625
+The running loss for batch: 900 is 436.4159240722656
+The running loss for batch: 950 is 458.0872497558594
+The running loss for batch: 1000 is 479.7586669921875
+The running loss for batch: 1050 is 501.42840576171875
+Traceback (most recent call last):
+  File "/Users/maxpendse/Desktop/Coding Projects/Max-Post-Training-Tests/pretrain_transformer/train.py", line 143, in <module>
+    print(f'The running loss for batch: {batch_idx} is {running_loss}')
+                                                       ^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/torch/_tensor.py", line 1097, in __format__
+    return self.item().__format__(format_spec)
+           ^^^^^^^^^^^
+KeyboardInterrupt

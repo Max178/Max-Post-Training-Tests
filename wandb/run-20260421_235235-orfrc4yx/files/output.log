@@ -1,0 +1,146 @@
+[34m[1mwandb[0m: Detected [huggingface_hub.inference] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai/
+Using mps device
+The train loss for batch: 0 is 7.109348297119141
+The train loss for batch: 100 is 4.5156073570251465
+The train loss for batch: 200 is 5.6182355880737305
+The train loss for batch: 300 is 4.522871017456055
+The train loss for batch: 400 is 3.4338936805725098
+The train loss for batch: 500 is 3.9907724857330322
+The train loss for batch: 600 is 3.6244802474975586
+The train loss for batch: 700 is 3.1738810539245605
+The train loss for batch: 800 is 3.1464555263519287
+The train loss for batch: 900 is 3.00171160697937
+The train loss for batch: 1000 is 2.955435276031494
+The train loss for batch: 1100 is 3.1652488708496094
+The train loss for batch: 1200 is 3.213538885116577
+The train loss for batch: 1300 is 3.1630797386169434
+The train loss for batch: 1400 is 3.0485730171203613
+The train loss for batch: 1500 is 3.006214141845703
+The train loss for batch: 1600 is 2.7952189445495605
+The train loss for batch: 1700 is 2.7701094150543213
+The train loss for batch: 1800 is 2.757856607437134
+The train loss for batch: 1900 is 2.702282667160034
+The train loss for batch: 2000 is 3.395355463027954
+The train loss for batch: 2100 is 3.1110754013061523
+The train loss for batch: 2200 is 3.127063274383545
+The train loss for batch: 2300 is 3.0684876441955566
+The train loss for batch: 2400 is 3.080470323562622
+The train loss for batch: 2500 is 2.969780921936035
+The train loss for batch: 2600 is 3.124213218688965
+The train loss for batch: 2700 is 3.0071206092834473
+The train loss for batch: 2800 is 2.9055819511413574
+The train loss for batch: 2900 is 2.9230871200561523
+The train loss for batch: 3000 is 2.958116292953491
+The train loss for batch: 3100 is 2.948361396789551
+The train loss for batch: 3200 is 2.8678603172302246
+The train loss for batch: 3300 is 2.9153528213500977
+The train loss for batch: 3400 is 2.8663814067840576
+The train loss for batch: 3500 is 2.8196897506713867
+The train loss for batch: 3600 is 3.029348373413086
+The train loss for batch: 3700 is 2.969914674758911
+The train loss for batch: 3800 is 2.978217363357544
+The train loss for batch: 3900 is 2.9961376190185547
+The train loss for batch: 4000 is 2.9174964427948
+The train loss for batch: 4100 is 2.998870849609375
+The train loss for batch: 4200 is 2.811201333999634
+The train loss for batch: 4300 is 2.7795677185058594
+The train loss for batch: 4400 is 2.799238443374634
+The train loss for batch: 4500 is 2.847238779067993
+The train loss for batch: 4600 is 2.854515552520752
+The train loss for batch: 4700 is 2.8923494815826416
+The train loss for batch: 4800 is 2.9339349269866943
+The train loss for batch: 4900 is 2.8526558876037598
+The train loss for batch: 5000 is 2.80340313911438
+The train loss for batch: 5100 is 2.795048236846924
+The train loss for batch: 5200 is 2.9083516597747803
+The train loss for batch: 5300 is 2.995488405227661
+The train loss for batch: 5400 is 2.9512507915496826
+The train loss for batch: 5500 is 2.941026449203491
+The train loss for batch: 5600 is 2.9132814407348633
+The train loss for batch: 5700 is 2.891221284866333
+The train loss for batch: 5800 is 2.9482004642486572
+The train loss for batch: 5900 is 3.087402582168579
+The train loss for batch: 6000 is 3.083589553833008
+The train loss for batch: 6100 is 3.1404025554656982
+The train loss for batch: 6200 is 3.165846347808838
+The train loss for batch: 6300 is 3.087055206298828
+The train loss for batch: 6400 is 2.9748237133026123
+The train loss for batch: 6500 is 2.912745475769043
+The train loss for batch: 6600 is 2.8988726139068604
+The train loss for batch: 6700 is 2.8923563957214355
+The train loss for batch: 6800 is 2.9802229404449463
+The train loss for batch: 6900 is 3.010453462600708
+The train loss for batch: 7000 is 2.990463972091675
+The train loss for batch: 7100 is 2.9706571102142334
+The train loss for batch: 7200 is 2.9417316913604736
+The train loss for batch: 7300 is 2.9428551197052
+The train loss for batch: 7400 is 2.9428834915161133
+The train loss for batch: 7500 is 2.9190385341644287
+The train loss for batch: 7600 is 2.9132955074310303
+The train loss for batch: 7700 is 2.8903579711914062
+The train loss for batch: 7800 is 2.8984200954437256
+The train loss for batch: 7900 is 2.900376796722412
+The train loss for batch: 8000 is 2.996537208557129
+The train loss for batch: 8100 is 2.9215426445007324
+The train loss for batch: 8200 is 3.0280098915100098
+The train loss for batch: 8300 is 2.85785174369812
+The train loss for batch: 8400 is 2.901651620864868
+The train loss for batch: 8500 is 2.897216320037842
+The train loss for batch: 8600 is 2.8927340507507324
+The train loss for batch: 8700 is 2.9692163467407227
+The train loss for batch: 8800 is 2.919116497039795
+The train loss for batch: 8900 is 2.9538464546203613
+The train loss for batch: 9000 is 3.0992112159729004
+The train loss for batch: 9100 is 3.0622591972351074
+The train loss for batch: 9200 is 3.0877790451049805
+The train loss for batch: 9300 is 2.9621310234069824
+The train loss for batch: 9400 is 2.9089412689208984
+The train loss for batch: 9500 is 2.935046672821045
+The train loss for batch: 9600 is 2.991060495376587
+The train loss for batch: 9700 is 3.012382745742798
+The train loss for batch: 9800 is 2.958057165145874
+The train loss for batch: 9900 is 3.0566437244415283
+The train loss for batch: 10000 is 3.021369457244873
+The train loss for batch: 10100 is 3.016810417175293
+The train loss for batch: 10200 is 3.0832600593566895
+The train loss for batch: 10300 is 3.0686302185058594
+The train loss for batch: 10400 is 2.981717348098755
+The train loss for batch: 10500 is 3.0907833576202393
+The train loss for batch: 10600 is 3.085310459136963
+The train loss for batch: 10700 is 2.977888584136963
+The train loss for batch: 10800 is 2.9584829807281494
+The train loss for batch: 10900 is 3.0151703357696533
+The train loss for batch: 11000 is 3.0099337100982666
+The train loss for batch: 11100 is 2.985612630844116
+The train loss for batch: 11200 is 2.922640562057495
+The train loss for batch: 11300 is 2.9160001277923584
+The train loss for batch: 11400 is 2.964672565460205
+The train loss for batch: 11500 is 3.0095410346984863
+The train loss for batch: 11600 is 2.978304386138916
+The train loss for batch: 11700 is 2.9400441646575928
+The train loss for batch: 11800 is 2.868252992630005
+The train loss for batch: 11900 is 2.924560070037842
+The train loss for batch: 12000 is 2.9594223499298096
+The train loss for batch: 12100 is 2.985483169555664
+
+--- Model Inference ---
+Type a prompt and press Enter. Type 'quit' to exit.
+
+Output: name some bs                                                                                         e e e eeeee
+
+Output: why don't you ever generate an n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n t t t t t t tttttee
+
+Output: generate some better text. Feel like you should be better than this by nown te te te te te te te te te te te te te te te te te te te te te te te te te te te te ntete nnneee e
+
+Output: hot gi n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n nnn  ee
+
+Output: why span t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t te
+
+Output: I have two Dogs. One's name is Taco and the other is Quesan n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n te te te te te te e e e n n n t t t te
+Traceback (most recent call last):
+  File "/Users/maxpendse/Desktop/Coding Projects/Max-Post-Training-Tests/pretrain_transformer/train.py", line 183, in <module>
+    prompt = input("Prompt: ")
+             ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

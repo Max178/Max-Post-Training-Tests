@@ -4,11 +4,12 @@ from sklearn.datasets import load_breast_cancer
 from torch import nn
 import torch
 from sklearn.model_selection import train_test_split
-from torch import TensorDataset, DataLoader
+from torch.utils.data import TensorDataset, DataLoader
+from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_auc_score, precision_recall_curve, auc
 
 # Start a new wandb run to track this script.
 run = wandb.init(
-    name="First public w+b run",
+    name="Add extra metrics",
     # Set the wandb entity where your project will be logged (generally your team name).
     entity="maxpendse-projects",
     # Set the wandb project where this run will be logged.
@@ -84,9 +85,9 @@ epoch_loss = 0
 model.train()
 
 for epoch in range(epochs):
-    optimizer.zero_grad()
     running_loss = 0.0
     for batch_x, batch_y in data_loader:
+        optimizer.zero_grad()
         model_outputs = model(batch_x)
         loss = loss_fn(model_outputs, batch_y)
         loss.backward()
@@ -98,6 +99,7 @@ for epoch in range(epochs):
         preds = (model_test_outputs > 0.5).float()
         accuracy = (preds == Y_test).float().mean()
     
+    running_loss = running_loss/len(X_train)
     epoch_loss += running_loss
     run.log({"loss_train": epoch_loss/(epoch + 1), "test_accuracy": accuracy})
 
@@ -107,9 +109,23 @@ with torch.no_grad():
 
     table = wandb.Table(columns=["predicted", "actual"])
     for pred, actual in zip(model_test.cpu().numpy(), Y_test.cpu().numpy()):
-        table.add_data(pred[0] > 0.5), int(actual[0]))
+        table.add_data((pred[0] > 0.5), int(actual[0]))
     
     run.log({"predictions_vs_actual": table})
+
+    y_true = Y_test.cpu().numpy().flatten()
+    y_pred_prob = model_test.cpu().numpy().flatten()
+    y_pred = (y_pred_prob > 0.5).astype(int)
+
+    accuracy = accuracy_score(y_true, y_pred)
+    precision = precision_score(y_true, y_pred)
+    recall = recall_score(y_true, y_pred)
+    auc_roc = roc_auc_score(y_true, y_pred_prob)
+
+    precision_curve, recall_curve, _ = precision_recall_curve(y_true, y_pred_prob)
+    auc_pr = auc(recall_curve, precision_curve)
+
+    run.log({"accuracy": accuracy, "precision": precision, "recall": recall, "auc_roc": auc_roc, "auc_pr": auc_pr})
 
 # Finish the run and upload any remaining data.
 run.finish()

@@ -1,0 +1,49 @@
+[34m[1mwandb[0m: Detected [huggingface_hub.inference] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai/
+Using mps device
+The train loss for batch: 0 is 7.024416923522949
+The train loss for batch: 100 is 4.7167134284973145
+The train loss for batch: 200 is 4.309935092926025
+The train loss for batch: 300 is 3.624913215637207
+The train loss for batch: 400 is 4.041025638580322
+The train loss for batch: 500 is 3.623969078063965
+The train loss for batch: 600 is 3.3327999114990234
+The train loss for batch: 700 is 3.1403613090515137
+The train loss for batch: 800 is 2.989927053451538
+The train loss for batch: 900 is 2.8948044776916504
+The train loss for batch: 1000 is 2.9489405155181885
+The train loss for batch: 1100 is 2.9905402660369873
+The train loss for batch: 1200 is 3.0402448177337646
+The train loss for batch: 1300 is 2.949784278869629
+The train loss for batch: 1400 is 2.832967519760132
+The train loss for batch: 1500 is 2.9019112586975098
+The train loss for batch: 1600 is 2.6789562702178955
+The train loss for batch: 1700 is 2.638873815536499
+The train loss for batch: 1800 is 2.672020196914673
+The train loss for batch: 1900 is 2.626051425933838
+The train loss for batch: 2000 is 2.6212563514709473
+The train loss for batch: 2100 is 2.803316354751587
+The train loss for batch: 2200 is 3.091547966003418
+The train loss for batch: 2300 is 2.898108720779419
+The train loss for batch: 2400 is 3.0183138847351074
+The train loss for batch: 2500 is 2.9149744510650635
+The train loss for batch: 2600 is 3.074239730834961
+The train loss for batch: 2700 is 6.830615520477295
+The train loss for batch: 2800 is 3.038377046585083
+The train loss for batch: 2900 is 3.099332094192505
+The train loss for batch: 3000 is 3.1228835582733154
+The train loss for batch: 3100 is 3.1000003814697266
+
+--- Model Inference ---
+Type a prompt and press Enter. Type 'quit' to exit.
+
+Output: Hi what is
+
+Output: you are a whor
+
+Character '\x1b' not in vocabulary. Use only characters the model was trained on.
+
+Output: hoe
+
+Output: you dumbas

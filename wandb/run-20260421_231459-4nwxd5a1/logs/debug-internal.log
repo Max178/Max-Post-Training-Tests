@@ -1,0 +1,19 @@
+{"time":"2026-04-21T23:15:00.608905-07:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-04-21T23:15:00.609824-07:00","level":"INFO","msg":"stream: starting","core version":"0.25.1"}
+{"time":"2026-04-21T23:15:00.817452-07:00","level":"INFO","msg":"stream: created new stream","id":"4nwxd5a1"}
+{"time":"2026-04-21T23:15:00.817523-07:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-04-21T23:15:00.817726-07:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-04-21T23:15:00.817755-07:00","level":"INFO","msg":"writer: started","stream_id":"4nwxd5a1"}
+{"time":"2026-04-21T23:15:00.817781-07:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-04-21T23:15:02.766188-07:00","level":"INFO","msg":"filestream: sending request","total_files":1,"console_offset":0,"console_lines":1}
+{"time":"2026-04-21T23:15:09.8799-07:00","level":"INFO","msg":"stream: closing"}
+{"time":"2026-04-21T23:15:10.697678-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-04-21T23:15:57.898855-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/maxpendse-projects/Max-LLM-Project/4nwxd5a1/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2026-04-21T23:16:00.866249-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:16:00.867258-07:00","level":"INFO","msg":"filestream: sending request","total_files":0}
+{"time":"2026-04-21T23:16:01.17305-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:16:01.173787-07:00","level":"INFO","msg":"filestream: sending request","total_files":2,"console_offset":0,"console_lines":5,"uploaded_len":5,"complete":true,"exit_code":0}
+{"time":"2026-04-21T23:16:02.095046-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-21T23:16:02.095242-07:00","level":"INFO","msg":"handler: closed"}
+{"time":"2026-04-21T23:16:02.095511-07:00","level":"INFO","msg":"sender: closed"}
+{"time":"2026-04-21T23:16:02.095527-07:00","level":"INFO","msg":"stream: closed"}

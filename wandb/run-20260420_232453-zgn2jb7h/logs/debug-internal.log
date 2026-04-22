@@ -1,0 +1,11 @@
+{"time":"2026-04-20T23:24:54.246306-07:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-04-20T23:24:54.248888-07:00","level":"INFO","msg":"stream: starting","core version":"0.25.1"}
+{"time":"2026-04-20T23:24:54.440846-07:00","level":"INFO","msg":"stream: created new stream","id":"zgn2jb7h"}
+{"time":"2026-04-20T23:24:54.440907-07:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-04-20T23:24:54.441029-07:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-04-20T23:24:54.441042-07:00","level":"INFO","msg":"writer: started","stream_id":"zgn2jb7h"}
+{"time":"2026-04-20T23:24:54.441059-07:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-04-20T23:24:54.836376-07:00","level":"INFO","msg":"filestream: sending request","total_files":1,"console_offset":0,"console_lines":1}
+{"time":"2026-04-20T23:24:55.089116-07:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-04-20T23:24:59.465779-07:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":58}
+{"time":"2026-04-20T23:25:02.476166-07:00","level":"INFO","msg":"stream: closing"}

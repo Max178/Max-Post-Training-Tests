@@ -1,0 +1,47 @@
+[34m[1mwandb[0m: Detected [huggingface_hub.inference] in use.
+[34m[1mwandb[0m: Use W&B Weave for improved LLM call tracing. Install Weave with `pip install weave` then add `import weave` to the top of your script.
+[34m[1mwandb[0m: For more information, check out the docs at: https://weave-docs.wandb.ai/
+Using mps device
+The train loss for batch: 0 is 7.101797580718994
+The train loss for batch: 100 is 4.97495174407959
+The train loss for batch: 200 is 4.044525623321533
+The train loss for batch: 300 is 3.6203010082244873
+The train loss for batch: 400 is 3.703925132751465
+The train loss for batch: 500 is 3.5785670280456543
+The train loss for batch: 600 is 3.270249366760254
+The train loss for batch: 700 is 2.974353313446045
+The train loss for batch: 800 is 3.1956093311309814
+The train loss for batch: 900 is 2.947462558746338
+The train loss for batch: 1000 is 3.027215003967285
+The train loss for batch: 1100 is 2.9655776023864746
+The train loss for batch: 1200 is 3.024303674697876
+The train loss for batch: 1300 is 2.935737133026123
+The train loss for batch: 1400 is 2.8712124824523926
+The train loss for batch: 1500 is 2.8654980659484863
+The train loss for batch: 1600 is 2.703331708908081
+The train loss for batch: 1700 is 2.6485729217529297
+The train loss for batch: 1800 is 2.6673760414123535
+The train loss for batch: 1900 is 2.64853572845459
+The train loss for batch: 2000 is 2.629601001739502
+The train loss for batch: 2100 is 2.7962124347686768
+The train loss for batch: 2200 is 2.7931458950042725
+The train loss for batch: 2300 is 2.7612321376800537
+The train loss for batch: 2400 is 2.8229987621307373
+The train loss for batch: 2500 is 2.729663133621216
+The train loss for batch: 2600 is 2.877035617828369
+The train loss for batch: 2700 is 2.7765884399414062
+The train loss for batch: 2800 is 2.6766085624694824
+The train loss for batch: 2900 is 2.711627960205078
+The train loss for batch: 3000 is 2.763838291168213
+The train loss for batch: 3100 is 2.7319562435150146
+
+--- Model Inference ---
+Type a prompt and press Enter. Type 'quit' to exit.
+
+Output: Hello! What is your name? ton ton ton ton ton ton ton ton ton ton ton ton ton ton ton ton ton ton ton ton ton ton ton ton to
+
+Output: my name is , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , te ton
+
+Output: I likend , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,
+
+Output: big black con to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to
